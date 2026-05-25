@@ -1,6 +1,28 @@
 # STANDARD OPERATING PROCEDURE (SOP)
 ## Recruitment & HR Department — Eleveal BPO
 
+```
+╔══════════════════════════════════════════════════════════════════════════╗
+║                                                                          ║
+║        ███████╗██╗     ███████╗██╗   ██╗███████╗ █████╗ ██╗             ║
+║        ██╔════╝██║     ██╔════╝██║   ██║██╔════╝██╔══██╗██║             ║
+║        █████╗  ██║     █████╗  ██║   ██║█████╗  ███████║██║             ║
+║        ██╔══╝  ██║     ██╔══╝  ╚██╗ ██╔╝██╔══╝  ██╔══██║██║             ║
+║        ███████╗███████╗███████╗ ╚████╔╝ ███████╗██║  ██║███████╗        ║
+║        ╚══════╝╚══════╝╚══════╝  ╚═══╝  ╚══════╝╚═╝  ╚═╝╚══════╝        ║
+║                                                                          ║
+║                    B P O   S O L U T I O N S                             ║
+║                                                                          ║
+║  ─────────────────────────────────────────────────────────────────────   ║
+║                                                                          ║
+║         📋 STANDARD OPERATING PROCEDURE (SOP) v2.0                       ║
+║         👥 Recruitment & HR Department                                   ║
+║         📅 Effective: May 25, 2026                                       ║
+║         🔒 Classification: Internal — Confidential                       ║
+║                                                                          ║
+╚══════════════════════════════════════════════════════════════════════════╝
+```
+
 **Document Version:** 2.0  
 **Effective Date:** May 25, 2026  
 **Prepared by:** Management  
@@ -95,25 +117,70 @@ Eleveal BPO is currently operating as a **startup company** with:
 
 ## 5. ORGANIZATIONAL STRUCTURE
 
+### 📊 Company Hierarchy Chart
+
+```mermaid
+graph TD
+    GM["🏢 GENERAL MANAGER<br/>Oversight & Approvals"]
+    BDM["📈 BDM<br/>Business Development"]
+    AM["👥 ACCOUNT MANAGER<br/>Program Operations"]
+    QA["🎯 QA / TRAINING<br/>Quality & Certification"]
+    R1["🔍 RECRUITMENT SPECIALIST 1<br/>Sourcing & Screening"]
+    R2["🔍 RECRUITMENT SPECIALIST 2<br/>Sourcing & Screening"]
+
+    GM --> BDM
+    GM --> AM
+    GM --> QA
+    BDM --> R1
+    AM --> R1
+    BDM --> R2
+    AM --> R2
+    QA --> R1
+    QA --> R2
+
+    style GM fill:#1a237e,color:#fff,stroke:#0d47a1
+    style BDM fill:#b71c1c,color:#fff,stroke:#c62828
+    style AM fill:#e65100,color:#fff,stroke:#f57c00
+    style QA fill:#1b5e20,color:#fff,stroke:#2e7d32
+    style R1 fill:#0277bd,color:#fff,stroke:#01579b
+    style R2 fill:#0277bd,color:#fff,stroke:#01579b
 ```
-┌─────────────────────────────────┐
-│        GENERAL MANAGER          │
-│   (Oversight & Approvals)       │
-└──────────────┬──────────────────┘
-               │
-    ┌──────────┼──────────────┐
-    │          │              │
-┌───▼───┐  ┌──▼──┐    ┌─────▼─────┐
-│  BDM  │  │ AM  │    │  QA/Train │
-│       │  │     │    │           │
-└───┬───┘  └──┬──┘    └─────┬─────┘
-    │         │              │
-    └─────────┼──────────────┘
-              │
-    ┌─────────▼─────────┐
-    │  RECRUITMENT TEAM  │
-    │ (2 Specialists)    │
-    └────────────────────┘
+
+### 📋 Reporting Lines & Responsibilities
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║                     ELEVEAL BPO                                  ║
+║               ORGANIZATIONAL STRUCTURE                           ║
+╠══════════════════════════════════════════════════════════════════╣
+║                                                                  ║
+║                    ┌──────────────────┐                          ║
+║                    │  GENERAL MANAGER │                          ║
+║                    │  ● Approvals     │                          ║
+║                    │  ● Strategy      │                          ║
+║                    │  ● Oversight     │                          ║
+║                    └────────┬─────────┘                          ║
+║              ┌──────────────┼──────────────────┐                 ║
+║              │              │                  │                  ║
+║     ┌────────▼───────┐ ┌───▼────────┐ ┌──────▼──────────┐      ║
+║     │      BDM       │ │  ACCOUNT   │ │  QA / TRAINING  │      ║
+║     │ ● Evaluations  │ │  MANAGER   │ │  ● Mock Calls   │      ║
+║     │ ● Certify      │ │ ● Onboard  │ │  ● Assessment   │      ║
+║     │ ● Performance  │ │ ● Training │ │  ● Validation   │      ║
+║     └────────┬───────┘ └───┬────────┘ └──────┬──────────┘      ║
+║              │              │                  │                  ║
+║              └──────────────┼──────────────────┘                 ║
+║                             │                                    ║
+║                  ┌──────────▼──────────┐                         ║
+║                  │  RECRUITMENT TEAM   │                         ║
+║                  │  (2 Specialists)    │                         ║
+║                  │  ● Sourcing         │                         ║
+║                  │  ● Screening        │                         ║
+║                  │  ● Scheduling       │                         ║
+║                  │  ● Tracking         │                         ║
+║                  └─────────────────────┘                         ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
 ```
 
 > **Note:** Due to startup operations, personnel may temporarily assume overlapping responsibilities based on business needs. This structure serves as a guideline, not a rigid hierarchy.
@@ -170,12 +237,94 @@ Eleveal BPO is currently operating as a **startup company** with:
 
 ## 7. RECRUITMENT PROCESS FLOW
 
-### Visual Pipeline Overview
+### 📊 Visual Pipeline Flowchart
+
+```mermaid
+flowchart LR
+    A["📋 MANPOWER<br/>REQUEST<br/>Day 0"] --> B["🔍 CANDIDATE<br/>SOURCING<br/>Day 1"]
+    B --> C["📝 INITIAL<br/>SCREENING<br/>Day 1-2"]
+    C --> D["🎤 INITIAL<br/>INTERVIEW<br/>Day 2-3"]
+    D --> E["👔 MANAGEMENT<br/>EVALUATION<br/>Day 3-4"]
+    E --> F["📞 MOCK CALL<br/>CERTIFICATION<br/>Day 4-5"]
+    F --> G["✅ FINAL<br/>ENDORSEMENT<br/>Day 5"]
+    G --> H["🎉 JOB OFFER<br/>& ONBOARD<br/>Day 5-7"]
+
+    style A fill:#e3f2fd,stroke:#1565c0,color:#0d47a1
+    style B fill:#e8f5e9,stroke:#2e7d32,color:#1b5e20
+    style C fill:#fff3e0,stroke:#e65100,color:#bf360c
+    style D fill:#fce4ec,stroke:#c62828,color:#b71c1c
+    style E fill:#f3e5f5,stroke:#6a1b9a,color:#4a148c
+    style F fill:#e0f7fa,stroke:#00695c,color:#004d40
+    style G fill:#f1f8e9,stroke:#33691e,color:#1b5e20
+    style H fill:#fff9c4,stroke:#f57f17,color:#e65100
+```
+
+### 📈 Recruitment Funnel Visualization
+
+```mermaid
+graph TD
+    subgraph FUNNEL["🔻 RECRUITMENT FUNNEL"]
+        direction TB
+        S1["━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br/>📢 SOURCING: 30 Candidates/Day<br/>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"]
+        S2["━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br/>📝 SCREENING: ~60% Pass Rate<br/>━━━━━━━━━━━━━━━━━━━━━━━━━━━━"]
+        S3["━━━━━━━━━━━━━━━━━━━━━━<br/>🎤 INTERVIEW: 10/Day<br/>━━━━━━━━━━━━━━━━━━━━━━"]
+        S4["━━━━━━━━━━━━━━━━━<br/>👔 EVALUATION<br/>━━━━━━━━━━━━━━━━━"]
+        S5["━━━━━━━━━━━━━<br/>📞 MOCK CALL<br/>━━━━━━━━━━━━━"]
+        S6["━━━━━━━━━<br/>✅ HIRED<br/>━━━━━━━━━"]
+    end
+
+    S1 --> S2
+    S2 --> S3
+    S3 --> S4
+    S4 --> S5
+    S5 --> S6
+
+    style S1 fill:#e3f2fd,stroke:#1565c0
+    style S2 fill:#e8f5e9,stroke:#2e7d32
+    style S3 fill:#fff3e0,stroke:#e65100
+    style S4 fill:#f3e5f5,stroke:#6a1b9a
+    style S5 fill:#e0f7fa,stroke:#00695c
+    style S6 fill:#c8e6c9,stroke:#1b5e20
+```
+
+### 🕐 Timeline Chart (Target: 2-7 Days)
 
 ```
-MANPOWER     CANDIDATE      INITIAL       INITIAL      MANAGEMENT     MOCK CALL/      FINAL         JOB OFFER
-REQUEST  →   SOURCING   →  SCREENING  →  INTERVIEW  →  EVALUATION  →  CERTIFICATION →  ENDORSEMENT →  & ONBOARDING
- (Day 0)      (Day 1)      (Day 1-2)     (Day 2-3)    (Day 3-4)      (Day 4-5)       (Day 5)        (Day 5-7)
+DAY 0        DAY 1        DAY 2        DAY 3        DAY 4        DAY 5        DAY 6-7
+  │            │            │            │            │            │            │
+  ▼            ▼            ▼            ▼            ▼            ▼            ▼
+┌────┐    ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌────────┐
+│ MP │───▶│SOURCING │─▶│SCREENING│─▶│INTERVIEW│─▶│  EVAL   │─▶│MOCK CALL│─▶│ONBOARD │
+│ REQ│    │         │  │         │  │         │  │         │  │  + END  │  │        │
+└────┘    └─────────┘  └─────────┘  └─────────┘  └─────────┘  └─────────┘  └────────┘
+  📋          🔍            📝           🎤           👔          📞✅         🎉
+```
+
+### 📊 Decision Tree at Each Stage
+
+```mermaid
+flowchart TD
+    START["🆕 New Candidate"] --> SCREEN{"📝 Screening<br/>Score ≥ 3/5?"}
+    SCREEN -->|"✅ YES"| INT{"🎤 Interview<br/>Passed?"}
+    SCREEN -->|"❌ NO"| REJ1["❌ Rejected<br/>Send Decline Message"]
+    INT -->|"✅ PASS"| MGMT{"👔 Management<br/>Approved?"}
+    INT -->|"⏸️ HOLD"| POOL["📂 Talent Pool<br/>Re-engage Later"]
+    INT -->|"❌ FAIL"| REJ2["❌ Rejected"]
+    MGMT -->|"✅ YES"| MOCK{"📞 Mock Call<br/>Score ≥ 3/5?"}
+    MGMT -->|"❌ NO"| REJ3["❌ Rejected"]
+    MOCK -->|"✅ PASS"| HIRE["🎉 HIRED!<br/>Job Offer Sent"]
+    MOCK -->|"🔄 RETRY"| MOCK2["📞 2nd Mock Call<br/>(Max 2 attempts)"]
+    MOCK -->|"❌ FAIL"| REJ4["❌ Rejected"]
+    MOCK2 -->|"✅ PASS"| HIRE
+    MOCK2 -->|"❌ FAIL"| REJ4
+
+    style START fill:#e3f2fd,stroke:#1565c0
+    style HIRE fill:#c8e6c9,stroke:#2e7d32,color:#1b5e20
+    style REJ1 fill:#ffcdd2,stroke:#c62828
+    style REJ2 fill:#ffcdd2,stroke:#c62828
+    style REJ3 fill:#ffcdd2,stroke:#c62828
+    style REJ4 fill:#ffcdd2,stroke:#c62828
+    style POOL fill:#fff9c4,stroke:#f57f17
 ```
 
 ---
@@ -373,6 +522,39 @@ REQUEST  →   SOURCING   →  SCREENING  →  INTERVIEW  →  EVALUATION  →  
 
 ## 8. RECOMMENDED FREE TOOLS & SYSTEMS
 
+### 📊 Tool Ecosystem Map
+
+```mermaid
+mindmap
+  root((ELEVEAL BPO<br/>Tool Stack))
+    📋 Pipeline
+      Notion
+      Trello
+      Airtable
+    📅 Scheduling
+      Calendly
+      Cal.com
+      Google Calendar
+    📝 Forms
+      Google Forms
+      Tally
+    💬 Communication
+      Discord
+      Slack
+      Messenger
+    🎥 Video
+      Google Meet
+    📊 Reporting
+      Google Sheets
+    📁 Storage
+      Google Drive
+    🎨 Design
+      Canva
+    ⚡ Automation
+      Make.com
+      Zapier
+```
+
 ### 🔧 IMMEDIATE IMPLEMENTATION (Phase 1 — Free Tools)
 
 | Category | Tool | Free Plan Details | Use Case |
@@ -507,6 +689,58 @@ REQUEST  →   SOURCING   →  SCREENING  →  INTERVIEW  →  EVALUATION  →  
 
 ## 10. RECRUITMENT KPIs & METRICS
 
+### 📊 KPI Performance Dashboard
+
+```mermaid
+pie title Screening Criteria Weight Distribution
+    "Communication Skills" : 30
+    "Relevant Experience" : 25
+    "Technical Setup" : 20
+    "Schedule Flexibility" : 15
+    "Work Attitude" : 10
+```
+
+### 📈 Target Conversion Funnel
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                    DAILY RECRUITMENT TARGETS                              │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                          │
+│  ████████████████████████████████████████████  30/day  ← SOURCED        │
+│  ████████████████████████████████             20/day  ← SCREENED        │
+│  ████████████████████                         10/day  ← INTERVIEWED     │
+│  ████████████████                              8/day  ← SHOWED UP (80%) │
+│  ██████████████                                7/day  ← ENDORSED        │
+│  ████████████                                  6/day  ← CERTIFIED       │
+│  ██████████                                    5/day  ← HIRED           │
+│                                                                          │
+│  CONVERSION RATE: ~17% (Sourced → Hired)                                │
+│                                                                          │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+### 📉 KPI Scorecard Visual
+
+```mermaid
+quadrantChart
+    title Recruitment KPI Priority Matrix
+    x-axis Low Effort --> High Effort
+    y-axis Low Impact --> High Impact
+    quadrant-1 Do First
+    quadrant-2 Plan Carefully
+    quadrant-3 Quick Wins
+    quadrant-4 Consider Later
+    "Show-Up Rate": [0.3, 0.8]
+    "Time-to-Hire": [0.6, 0.9]
+    "Hiring Accuracy": [0.7, 0.85]
+    "Daily Interviews": [0.4, 0.7]
+    "Source Tracking": [0.2, 0.5]
+    "Response Time": [0.25, 0.6]
+    "Pipeline Rate": [0.8, 0.7]
+    "Retention": [0.9, 0.95]
+```
+
 ### Primary KPIs
 
 | KPI | Target | Measurement Method | Frequency |
@@ -540,6 +774,64 @@ REQUEST  →   SOURCING   →  SCREENING  →  INTERVIEW  →  EVALUATION  →  
 
 ## 11. COMMUNICATION PROTOCOL
 
+### 📊 Communication Flow Diagram
+
+```mermaid
+flowchart TD
+    subgraph INTERNAL["🏢 INTERNAL COMMUNICATION"]
+        D1["Discord<br/>#urgent-hiring"]
+        D2["Discord<br/>#recruitment-updates"]
+        D3["Discord<br/>#endorsements"]
+        D4["Discord<br/>#escalations"]
+        GM2["Google Meet<br/>Weekly Sync"]
+    end
+
+    subgraph CANDIDATE["👤 CANDIDATE COMMUNICATION"]
+        MSG["Messenger<br/>Initial Contact"]
+        EMAIL["Gmail<br/>Formal Offers"]
+        CAL["Google Calendar<br/>Interview Invites"]
+        MEET["Google Meet<br/>Video Interviews"]
+    end
+
+    subgraph TRACKING["📊 DOCUMENTATION"]
+        NOTION["Notion<br/>Pipeline Status"]
+        SHEETS["Google Sheets<br/>Reports & KPIs"]
+        FORMS["Google Forms<br/>Evaluations"]
+    end
+
+    D2 --> NOTION
+    D3 --> NOTION
+    MSG --> NOTION
+    CAL --> MEET
+    FORMS --> SHEETS
+    NOTION --> SHEETS
+
+    style D1 fill:#7289da,color:#fff
+    style D2 fill:#7289da,color:#fff
+    style D3 fill:#7289da,color:#fff
+    style D4 fill:#7289da,color:#fff
+    style MSG fill:#0084ff,color:#fff
+    style EMAIL fill:#ea4335,color:#fff
+    style CAL fill:#4285f4,color:#fff
+    style MEET fill:#00897b,color:#fff
+    style NOTION fill:#000,color:#fff
+    style SHEETS fill:#0f9d58,color:#fff
+    style FORMS fill:#673ab7,color:#fff
+```
+
+### ⏱️ Response Time Standards
+
+```
+URGENCY LEVELS & RESPONSE TIMES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔴 CRITICAL   │< 30 min │ ████░░░░░░░░░░░░ │ Urgent hiring, complaints
+🟠 HIGH       │< 2 hrs  │ ████████░░░░░░░░ │ Candidate inquiries, updates
+🟡 STANDARD   │< 4 hrs  │ ████████████░░░░ │ Endorsements, scheduling
+🟢 LOW        │< 24 hrs │ ████████████████ │ Reports, formal offers
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
 ### Mandatory Rules:
 1. **All candidate updates must be documented** — No verbal-only endorsements
 2. **Interview results logged immediately** — Within 30 minutes of completion
@@ -571,6 +863,53 @@ REQUEST  →   SOURCING   →  SCREENING  →  INTERVIEW  →  EVALUATION  →  
 
 
 ## 12. CANDIDATE EXPERIENCE STANDARDS
+
+### 📊 Candidate Journey Map
+
+```mermaid
+journey
+    title Candidate Experience Journey
+    section Discovery
+      Sees job post: 3: Candidate
+      Inquires via Messenger: 4: Candidate
+      Receives acknowledgment: 5: Recruiter
+    section Screening
+      Fills pre-screening form: 3: Candidate
+      Gets screening result: 4: Recruiter
+    section Interview
+      Receives calendar invite: 5: Recruiter
+      Attends interview: 4: Candidate
+      Gets feedback within 24hrs: 5: Recruiter
+    section Evaluation
+      Mock call scheduled: 4: QA Team
+      Completes mock call: 3: Candidate
+      Receives certification: 5: QA Team
+    section Onboarding
+      Gets job offer: 5: Recruiter
+      Submits requirements: 4: Candidate
+      Starts training: 5: AM
+```
+
+### ⏱️ Candidate Communication SLA
+
+```
+CANDIDATE TOUCHPOINT TIMELINE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  📩 Application    ──── ⏱️ 2 HRS ────▶  ✅ Acknowledgment Sent
+  
+  📝 Screening      ──── ⏱️ 24 HRS ───▶  ✅ Result Notification
+  
+  📅 Interview Set  ──── ⏱️ 24 HRS ───▶  ✅ Calendar Invite Sent
+  
+  🎤 Post-Interview ──── ⏱️ 24 HRS ───▶  ✅ Status Update
+  
+  ❌ Rejection      ──── ⏱️ 48 HRS ───▶  ✅ Professional Decline
+  
+  🎉 Job Offer      ──── ⏱️ 24 HRS ───▶  ✅ Formal Communication
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
 
 ### Principles:
 - Every candidate represents potential brand advocacy — treat all with respect
@@ -635,6 +974,32 @@ All applicant information is **strictly confidential** and accessible only to au
 
 ## 14. ESCALATION PROCEDURES
 
+### 📊 Escalation Flow Diagram
+
+```mermaid
+flowchart TD
+    ISSUE["⚠️ ISSUE IDENTIFIED"] --> TYPE{"What type<br/>of issue?"}
+    
+    TYPE -->|"Hiring Delay"| E1["📋 Day 5: Escalate to AM"]
+    TYPE -->|"Candidate Complaint"| E2["🔴 IMMEDIATE: Escalate to GM"]
+    TYPE -->|"No-Show"| E3["📞 Same Day: AM + Recruitment"]
+    TYPE -->|"System Failure"| E4["⚡ 1 Hour: Escalate to GM"]
+    TYPE -->|"Quality Issue"| E5["📊 24hrs: QA → BDM → GM"]
+    
+    E1 --> DOC["📝 Document in Discord #escalations"]
+    E2 --> DOC
+    E3 --> DOC
+    E4 --> DOC
+    E5 --> DOC
+    
+    DOC --> FOLLOW["⏰ Follow up if no response in 2hrs"]
+    FOLLOW --> RESOLVE["✅ Log resolution in tracker"]
+
+    style ISSUE fill:#ffcdd2,stroke:#c62828
+    style E2 fill:#ff5252,color:#fff,stroke:#d32f2f
+    style RESOLVE fill:#c8e6c9,stroke:#2e7d32
+```
+
 ### When to Escalate:
 
 | Situation | Escalate To | Timeline |
@@ -658,6 +1023,119 @@ All applicant information is **strictly confidential** and accessible only to au
 
 
 ## 15. FUTURE SCALING PLAN
+
+### 📊 Growth Roadmap Timeline
+
+```mermaid
+gantt
+    title Eleveal BPO - Recruitment System Scaling Roadmap
+    dateFormat  YYYY-MM
+    section Phase 1 - Manual
+    Google Workspace Setup        :done, p1a, 2026-05, 2026-06
+    Notion Pipeline               :done, p1b, 2026-05, 2026-07
+    Calendly Integration          :active, p1c, 2026-06, 2026-07
+    Template Creation             :active, p1d, 2026-06, 2026-08
+    SOP Implementation            :active, p1e, 2026-05, 2026-08
+    section Phase 2 - Automation
+    Airtable Migration            :p2a, 2026-08, 2026-10
+    Zoho Recruit (Free)           :p2b, 2026-09, 2026-11
+    Make.com Automations          :p2c, 2026-09, 2026-12
+    ClickUp Project Mgmt          :p2d, 2026-10, 2027-01
+    section Phase 3 - HRIS
+    HRIS Evaluation               :p3a, 2027-01, 2027-02
+    Manatal/Freshteam Deploy      :p3b, 2027-02, 2027-04
+    Data Migration                :p3c, 2027-03, 2027-05
+    section Phase 4 - Enterprise
+    Enterprise ATS                :p4a, 2027-06, 2027-09
+    LinkedIn Recruiter            :p4b, 2027-07, 2027-10
+    Custom Integrations           :p4c, 2027-08, 2027-12
+```
+
+### 💰 Budget Progression Chart
+
+```
+MONTHLY INVESTMENT OVER TIME
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Phase 1 (Now)          │ $0/mo
+                       │ ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+                       │ ALL FREE TOOLS
+                       │
+Phase 2 (3-6 mo)      │ $0-50/mo
+                       │ ▓▓▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+                       │ Free + Freemium Upgrades
+                       │
+Phase 3 (6-12 mo)     │ $50-200/mo
+                       │ ▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░░░░░░░░░
+                       │ HRIS + AI-Powered ATS
+                       │
+Phase 4 (12+ mo)      │ $200-500/mo
+                       │ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░
+                       │ Enterprise Suite
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+### 🏗️ Tool Stack Evolution
+
+```mermaid
+graph LR
+    subgraph "PHASE 1 — $0"
+        A1[Google Forms]
+        A2[Google Sheets]
+        A3[Notion]
+        A4[Discord]
+        A5[Calendly]
+        A6[Canva]
+    end
+
+    subgraph "PHASE 2 — $0-50"
+        B1[Airtable]
+        B2[Zoho Recruit]
+        B3[ClickUp]
+        B4[Make.com]
+        B5[Slack Pro]
+    end
+
+    subgraph "PHASE 3 — $50-200"
+        C1[Manatal]
+        C2[Freshteam]
+        C3[Zoho People]
+        C4[Bitrix24]
+    end
+
+    subgraph "PHASE 4 — $200-500"
+        D1[BambooHR]
+        D2[LinkedIn Recruiter]
+        D3[Greenhouse]
+    end
+
+    A1 --> B1
+    A2 --> B1
+    A3 --> B2
+    B2 --> C1
+    B1 --> C2
+    C1 --> D3
+    C2 --> D1
+
+    style A1 fill:#e8f5e9,stroke:#2e7d32
+    style A2 fill:#e8f5e9,stroke:#2e7d32
+    style A3 fill:#e8f5e9,stroke:#2e7d32
+    style A4 fill:#e8f5e9,stroke:#2e7d32
+    style A5 fill:#e8f5e9,stroke:#2e7d32
+    style A6 fill:#e8f5e9,stroke:#2e7d32
+    style B1 fill:#e3f2fd,stroke:#1565c0
+    style B2 fill:#e3f2fd,stroke:#1565c0
+    style B3 fill:#e3f2fd,stroke:#1565c0
+    style B4 fill:#e3f2fd,stroke:#1565c0
+    style B5 fill:#e3f2fd,stroke:#1565c0
+    style C1 fill:#fff3e0,stroke:#e65100
+    style C2 fill:#fff3e0,stroke:#e65100
+    style C3 fill:#fff3e0,stroke:#e65100
+    style C4 fill:#fff3e0,stroke:#e65100
+    style D1 fill:#fce4ec,stroke:#c62828
+    style D2 fill:#fce4ec,stroke:#c62828
+    style D3 fill:#fce4ec,stroke:#c62828
+```
 
 ### Phase 1 — Current State (Manual Operations) ✅
 **Timeline:** Now  
